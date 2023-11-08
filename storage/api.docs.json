@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API de Alkemy-bot",
+        "description": "API de ejemplo para clase de Desarrollo de Backend y APIs de la carrera de Ingenieria en Diseño y Desarrollo de Videojuegos",
+        "contact": {
+            "name": "Alkemy-bot",
+            "url": "https://localhost/api/",
+            "email": "rivas_edgardo@hotmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/ejecutar": {
+            "get": {
+                "tags": [
+                    "ejecutar"
+                ],
+                "summary": "Este es un endpoint/método para obtener datos y mostrarlos al usuario",
+                "description": "Descripción de ejemplo para clase de Desarrollo de Backend y APIs de la carrera de Ingenieria en Diseño y Desarrollo de Videojuegos hecho por todos los estudiantes 19/10/23.",
+                "operationId": "ed42aafacf51d9aa570647800fcaa0e9",
+                "responses": {
+                    "200": {
+                        "description": "Se devuelven todos los registros cuando la consulta sea satisfactoria"
+                    },
+                    "500": {
+                        "description": "No se pudo realizar la ejecución."
+                    }
+                }
+            }
+        }
+    }
+}
